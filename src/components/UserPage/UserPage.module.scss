@@ -1,0 +1,76 @@
+.UserPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 100px 10px 60px 10px;
+  gap: 10px
+}
+
+.userInfo {
+  display: flex;
+  align-items: start;
+  gap: 40px;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.userInfoText {
+  td {
+    padding: 2px 0px;
+  }
+
+  td:first-child {
+    color: dimgray;
+  }
+
+  td:nth-child(2) {
+    padding-left: 20px;
+    font-weight: bold;
+  }
+}
+
+.image {
+  border: 4px solid white;
+  outline: 1px solid dodgerblue;
+  border-radius: 50%;
+}
+
+.login {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.follow {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+
+  .label {
+    color: dimgray;
+  }
+
+  .value {
+    font-weight: bold;
+    margin-left: 10px;
+  }
+}
+
+.back {
+  color: dodgerblue;
+
+  &:hover {
+    color: rgba(30, 144, 255, 0.7);
+  }
+}
+
+.title {
+  margin: 30px 0px 0px 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+}

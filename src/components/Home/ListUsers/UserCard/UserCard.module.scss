@@ -1,0 +1,29 @@
+.imageLogin {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.image {
+  border: 4px solid white;
+  outline: 1px solid dodgerblue;
+  border-radius: 50%;
+}
+
+.login {
+  width: 400px;
+  word-wrap: break-word;
+  @media only screen and (max-width: 768px) {
+    width: 120px;
+  }
+}
+
+.repos {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  .label {
+    color: dimgray;
+  }
+}

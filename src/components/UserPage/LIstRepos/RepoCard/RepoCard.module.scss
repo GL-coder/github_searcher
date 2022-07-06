@@ -1,0 +1,41 @@
+.name {
+  width: 400px;
+  word-wrap: break-word;
+  @media only screen and (max-width: 768px) {
+    width: 200px;
+  }
+}
+
+.forksAndStars {
+  display: flex;
+  gap: 20px;
+}
+
+.forks {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.label {
+  color: dimgray;
+  @media only screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+.value {
+
+}
